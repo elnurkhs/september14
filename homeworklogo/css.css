@@ -1,0 +1,42 @@
+#iconbackground{
+    box-shadow: 10px 10px 10px cadetblue;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    margin-top: 150px;
+}
+#container{
+    background-color: gainsboro;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 400px;
+}
+svg{
+    box-shadow: darkred;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+#header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+}
+#text{
+    color: purple;
+    font-family: Elnur;
+    text-align: justify;
+    width: 400px;
+    font-size: 25px;
+}
+@font-face{
+    font-family: Elnur;
+    src: url(./JosefinSans-VariableFont_wght.ttf);
+}
